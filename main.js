@@ -11,7 +11,7 @@ var clips = [clip1, special];
 clips.volume = 0.2;
 
 function nice_function(){
-    var shuffledClip = Math.floor(Math.random() * 7);
+    var shuffledClip = Math.floor(Math.random() * 2);
     var randomClip = clips[shuffledClip];
     console.log(randomClip)
     randomClip.play();
