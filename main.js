@@ -6,7 +6,7 @@ var clip5 = new Audio('se6.mp3');
 var clip6 = new Audio('se7.mp3');
 var special = new Audio('special.mp3');
 
-var clips = [clip1, clip2, clip3, clip4, clip5, clip6, special];
+var clips = [clip1, special];
 
 clips.volume = 0.2;
 
