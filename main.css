@@ -1,0 +1,33 @@
+body{
+    font-family: "Nunito", sans-serif;
+    margin:0;
+    background-color: #282a36;
+}
+
+.nice_button_class{
+    height:100%;
+    widows: 100px;
+}
+
+#nice_button_id{
+    text-align: center;
+}
+
+#nice_button{
+    display:inline-block;
+    font-size: 90px;
+    height:240px;
+    width:800px;
+    transition:0.2s;
+    background-color: #44475a;
+    color:#ff79c6;
+    border: 5px solid #6272a4;
+    cursor: pointer;
+    
+}
+#nice_button:hover{
+    transition:0.2s;
+    background-color:#44475a;
+    color:#f1fa8c;
+    border: 5px solid #bd93f9;
+}
